@@ -7,6 +7,7 @@
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "precommit": "xo --quiet && lint-staged",
     "lint": "xo --quiet"
   },
   "devDependencies": {
