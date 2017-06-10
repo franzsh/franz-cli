@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "precommit": "lint-staged",
-    "lint": "xo --quiet"
+    "test": "xo --quiet"
   },
   "devDependencies": {
     "ansi-escapes": "^2.0.0",
@@ -27,7 +27,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "npm run lint",
+      "npm test",
       "prettier --single-quote --no-semi --write",
       "git add"
     ]
