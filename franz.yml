@@ -1,5 +1,0 @@
-endpoints:
-  ENDPOINT_NAME:
-    url: /URL
-    method: METHOD
-    qs: '?QUERYSTRING=true'
