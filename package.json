@@ -10,6 +10,16 @@
     "precommit": "lint-staged",
     "test": "xo --quiet"
   },
+  "bin": {
+    "franz": "bin/franz.js"
+  },
+  "dependencies": {
+    "meow": "^3.7.0",
+    "shout-error": "^0.0.2",
+    "shout-success": "^0.0.2",
+    "update-notifier": "^2.2.0",
+    "yamljs": "^0.3.0"
+  },
   "devDependencies": {
     "ansi-escapes": "^2.0.0",
     "ava": "^0.19.1",
@@ -28,7 +38,7 @@
   "lint-staged": {
     "*.js": [
       "npm test",
-      "prettier --single-quote --no-semi --write",
+      "prettier --semi false --single-quote --write",
       "git add"
     ]
   }

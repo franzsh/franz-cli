@@ -1,8 +1,3 @@
 machine:
   node:
     version: 7.0.0
-
-## Custom notifications
-notify:
-  webhooks:
-    - url: https://hooks.slack.com/services/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
