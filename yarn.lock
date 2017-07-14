@@ -1531,6 +1531,16 @@ form-data@~2.1.1:
     combined-stream "^1.0.5"
     mime-types "^2.1.12"
 
+franz-init@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/franz-init/-/franz-init-0.0.2.tgz#c3c7e2fdc5477874981179564c4788df419cc1b8"
+  dependencies:
+    yamljs "^0.3.0"
+
+franz-validate@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/franz-validate/-/franz-validate-0.0.1.tgz#30ff10869c81699fc2fa689481099812c26ab87b"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
