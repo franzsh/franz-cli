@@ -14,6 +14,8 @@
     "franz": "bin/franz.js"
   },
   "dependencies": {
+    "franz-init": "^0.0.2",
+    "franz-validate": "^0.0.1",
     "meow": "^3.7.0",
     "shout-error": "^0.0.2",
     "shout-success": "^0.0.2",
